@@ -1,0 +1,64 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main {
+    width: 500px;
+    height: 600px;
+    background-color: lightblue;
+ 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+.input{
+    border: 2px solid blue;
+    height: 30px;
+    width: 90%;
+    border-radius: 3px;
+    margin: 20px;
+
+}
+img{
+    border: 5px solid blue;
+    height: 380px;
+    width: 90%;
+    margin-left: 25px;
+    border-radius: 10px;
+
+}
+button{
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    width: 60%;
+    margin: 30px 100px ;
+}
+button:hover{
+    background-color: wheat;
+    color: blue;
+    box-shadow: 1px 1px 1px blue;
+    font-size: larger;
+    border: 2px solid blue;
+   transition: 1s ease;
+   cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: rgb(25, 25, 112);
+    margin-top: 20PX;
+}
